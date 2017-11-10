@@ -1,0 +1,15 @@
+port number 
+
+sudo netstat -tlnp
+
+mysql ==> 3306
+apache2 ==> 80
+mongoDb ==> 27017
+
+
+Add mysql lib if error => Project>build path > configure build path > add external lib(.jar)
+
+mysql lib in 
+/opt/java/jdk1.8.0_102/lib
+
+
