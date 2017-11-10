@@ -5,14 +5,14 @@
  * */
 import java.sql.*;
 /*
- * Initially mysql is used .
- * Will be replaced by oracle in next commit
+ * mysql is used with apache2 webserver.
+ * 
  * 
  * */
 public class Connection {
 	//static String url = null;
-	static String user = "root"; // username of phpmyadmin .. replace username
-	static String password = "toor"; // password of phpmyadmin .. replace password
+	static String user = "root"; // username of phpmyadmin .. 
+	static String password = "toor"; // password of phpmyadmin .. 
 	
 	public static void connect() {
 		String sql = "insert into test values('"+6+"' , '"+80+"' , '"+21+"' )"; // sql query
